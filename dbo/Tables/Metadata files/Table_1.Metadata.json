@@ -31,7 +31,7 @@
       "is_sparse": false,
       "is_xml_document": false,
       "max_length": 20,
-      "name": "col2",
+      "name": "col1",
       "obj": "Table_1",
       "precision": 0,
       "rule_object_id": 0,
