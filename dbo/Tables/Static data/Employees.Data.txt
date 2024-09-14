@@ -1,5 +1,5 @@
-﻿EmployeeID,FirstName,LastName,Department,HireDate,HASH
-2,Jane,Doe,Finance,15/01/2023 00:00:00.000000 -08:00,0c49234d416aeec5b6eb4195c9455361
-3,Emily,Jones,Sales,,2fa7d0f7b447a202d5e989661431daaf
-4,Michael,Brown,Marketing,,47110ffb87c3505caf7269c640ab995c
-5,Olivia,Wilson,IT,,2793359b3c49b42a0ef60c4b9ac39487
+﻿EmployeeID,FirstName,LastName,Department,HireDate,Email,HASH
+2,Jane,Doe,Finance,15/01/2023 00:00:00.000000 -08:00,,ee8d3f2c62aa7fa037a6860d3271e8ec
+3,Emily,Jones,Sales,,,27eda95d944e811871ac943a4e5fd728
+4,Michael,Brown,Marketing,,,a8d370e84829c5028ac309b04fbfc3db
+5,Olivia,Wilson,IT,,,932c9c26a6f2447e7106e0e5a7946639
