@@ -3,5 +3,8 @@ ON Employees
 AFTER INSERT
 AS
 BEGIN
-    PRINT 'A new employee has been added';
+    INSERT INTO EmployeeLog (EmployeeID, InsertedAt)
+    SELECT EmployeeID, GETDATE() FROM inserted;
+    
+    PRINT 'A new employee has been added and logged';
 END;
