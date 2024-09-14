@@ -7,7 +7,8 @@ CREATE TABLE [dbo].[Employees](
 	[FirstName] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[LastName] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Department] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-	[HireDate] [date] NULL,
+	[HireDate] [datetime2](7) NULL,
+	[Email] [nvarchar](100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[EmployeeID] ASC
